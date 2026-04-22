@@ -702,7 +702,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    height: 6rem;
+    height: 7rem;
     border: 1.5px solid #2b81f1;
   } 
 
@@ -759,7 +759,7 @@ html {
     position: relative;
     cursor: pointer;
     transition: .3s;
-    /* margin: 0px 0.4%; */
+    margin-top: 4%;
   }
 
   .radio-btns__btn::after {
@@ -782,7 +782,7 @@ html {
   }
 
   .gallery {
-    padding: 5em;
+    padding: 4em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -822,9 +822,45 @@ html {
     font-family: italic; 
     font-style: oblique;
     font-size: 1rem;
+    margin-left: 4%;
   }
 
   a.btn-tg {
+    display: inline-block;
+    background-image: url("https://sun9-37.userapi.com/s/v1/ig2/qU7l_67sGTKCrlFfVPwBdnfLfCJN2BdMvB3XF34tJXQN2Ioqir5iuBLwwXHQhwB6sibEPXUZ8jiVr9E7BTdfhi31.jpg?quality=95&as=32x32,40x40&from=bu&u=4i9Z97mIQuOfIh1YEwA5fag3TAYb7-kARFC2qTcB6u4&cs=40x0");
+    width: 40px;
+    height: 40px;
+  }
+
+  a.btn-tg:hover {
+    background-image: url("https://sun9-11.userapi.com/s/v1/ig2/hgtIwFFHnmkqrlzE09UpdP9R5AT7u4A4Z1d7gRD695fjyPUWQddndriry2PlwSgm-hLjOgQMg5jeXRT7z77xxvMy.jpg?quality=95&as=32x32,40x40&from=bu&cs=40x0");
+  }
+
+  a.btn-vk {
+    display: inline-block;
+    background-image: url("https://sun9-59.userapi.com/s/v1/ig2/aZh3gJcj9NItilrs1_bz7nxtYNwRE2vrHWu4CiQXx3UaLM_y2RWcO30r12rlxShevEw6MIp_VebktgGHCOdtEYFL.jpg?quality=95&as=32x32,40x40&from=bu&u=3cQyFhP0XNU4UgAdfYft142jKE0CWL7E9HKaEeSz-Cg&cs=40x0");
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  a.btn-vk:hover {
+    background-image: url("https://sun9-82.userapi.com/s/v1/ig2/_9L_zxu74geKEqzTCO_93BQrVIk6Tm6HDGUUBy0TbivTme9dKw8wTcBsPzVUHHerxjxSea0LUEHGIQ0BMtNOBozG.jpg?quality=95&as=32x32,40x40&from=bu&cs=40x0");
+  }
+
+  a.btn-ut {
+    display: inline-block;
+    background-image: url("https://sun9-2.userapi.com/s/v1/ig2/arX3sm_5QfnLOcPGFDqbid961q8lZ3eSduHD5DxU5OyasWf8FcemWnYtkHzgU51Ib3bc8ats8EXcobMS-Z3jErqs.jpg?quality=95&as=32x32,40x40&from=bu&cs=40x0");
+    width: 40px;
+    height: 40px;
+    }
+
+  .btn-ut:hover {
+    background-image: url("https://sun9-15.userapi.com/s/v1/ig2/-lGrgAnJ2rL4fH2qjZ0Hf8gYhRb_SNVqb2YJFAYpquk8Z7KItv96Q5IejoZBc8eaI1temK0aZEMy0I0ntH0eaFYH.jpg?quality=95&as=32x32,40x40&from=bu&cs=40x0");
+  }
+
+  /* a.btn-tg {
     display: inline-block;
     background-image: url("https://sun9-45.userapi.com/s/v1/ig2/4dmKQ4uCMITAC7VYhPR22qsD3_XOpunF2CLrgPpqaR9OjxMGOyQCXATcbs4UZ0z4k015C8XOc5zaXTesOdJT0ra3.jpg?quality=95&as=20x20&from=bu&u=rOagNld4EkYbPkFF84Y9kxZFWSKiwr8G3F24i2wX2iE&cs=20x0");
     width: 20px;
@@ -855,6 +891,6 @@ html {
 
   .btn-ut:hover {
     background-image: url("https://sun9-85.userapi.com/s/v1/ig2/u2lZWfWdKkLPNkeHXzh-kV-bcjaF3adBZSA2YJbhXOBB7gdxK8-jpDqkVbaUOts40Rm73aZZXPw80qdAWEUQDMo2.jpg?quality=95&as=20x20&from=bu&cs=20x0");
-  }
+  } */
 
 }
