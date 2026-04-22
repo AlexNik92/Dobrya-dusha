@@ -833,19 +833,21 @@ html {
   }
 
   .online {
+    margin-left: auto;
+    margin-right: auto;
     font-family: italic; 
     font-style: oblique;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #ffffff;
     text-decoration: none;
     background-color: #2b81f1;
-    padding: 7px;
+    padding: 5px;
   }
 
   .adress {
     font-family: italic; 
     font-style: oblique;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #000000;
     text-decoration: none;
   }
@@ -857,10 +859,9 @@ html {
   .number {
     font-family: italic; 
     font-style: oblique;
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-left: 4%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 4%;
   }
 
   a.btn-tg {
