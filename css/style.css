@@ -76,7 +76,7 @@
     border: 1.5px solid black;
   }
 
-.text{
+  .text{
     display: flex;
     flex-direction: column;
     margin-left: 2%;
@@ -149,6 +149,7 @@
 
   .social {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 10%;
@@ -163,8 +164,10 @@
     font-family: italic; 
     font-style: oblique;
     font-size: 1.45rem;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
+    background-color: #2b81f1;
+    padding: 10px;
   }
 
   .adress {
@@ -176,13 +179,19 @@
   }
 
   .online:hover {
-    color: #ce0505;
+    color: #000000;
   }
 
   .number {
     font-family: italic; 
     font-style: oblique;
     font-size: 1.45rem;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .social_media {
+    margin-top: 2%;
   }
 
   a.btn-tg {
@@ -201,6 +210,8 @@
     background-image: url("https://sun9-59.userapi.com/s/v1/ig2/aZh3gJcj9NItilrs1_bz7nxtYNwRE2vrHWu4CiQXx3UaLM_y2RWcO30r12rlxShevEw6MIp_VebktgGHCOdtEYFL.jpg?quality=95&as=32x32,40x40&from=bu&u=3cQyFhP0XNU4UgAdfYft142jKE0CWL7E9HKaEeSz-Cg&cs=40x0");
     width: 40px;
     height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   a.btn-vk:hover {
@@ -279,15 +290,20 @@
 
   .social {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 1%;
     margin-right: 2%;
     gap: 0.8%;
     width: 90%;
-    height: 6rem;
+    height: 6.5rem;
     border: 1.5px solid #2b81f1;
   } 
+
+  .social_media {
+    margin-top: 2%;
+  }
 
   .middle {
     display: flex;
@@ -368,8 +384,10 @@
     font-family: italic; 
     font-style: oblique;
     font-size: 1.2rem;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
+    background-color: #2b81f1;
+    padding: 8px;
   }
 
   .adress {
@@ -381,13 +399,15 @@
   }
 
   .online:hover {
-    color: #ce0505;
+    color: #000000;
   }
 
   .number {
     font-family: italic; 
     font-style: oblique;
     font-size: 1.2rem;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   a.btn-tg {
@@ -406,6 +426,8 @@
     background-image: url("https://sun9-59.userapi.com/s/v1/ig2/aZh3gJcj9NItilrs1_bz7nxtYNwRE2vrHWu4CiQXx3UaLM_y2RWcO30r12rlxShevEw6MIp_VebktgGHCOdtEYFL.jpg?quality=95&as=32x32,40x40&from=bu&u=3cQyFhP0XNU4UgAdfYft142jKE0CWL7E9HKaEeSz-Cg&cs=40x0");
     width: 40px;
     height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   a.btn-vk:hover {
@@ -426,6 +448,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
 html {
     background-image: url(../images/white_copy.jpg);
     background-repeat: no-repeat;
@@ -483,15 +506,20 @@ html {
 
   .social {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1%;
+    margin-top: 0.9%;
     margin-right: 2%;
     gap: 0.8%;
     width: 90%;
-    height: 4rem;
+    height: 6rem;
     border: 1.5px solid #2b81f1;
   } 
+
+  .social_media {
+    margin-top: 2%;
+  }
 
   .middle {
     display: flex;
@@ -571,27 +599,31 @@ html {
   .online {
     font-family: italic; 
     font-style: oblique;
-    font-size: 1rem;
-    color: #000000;
+    font-size: 1.2rem;
+    color: #ffffff;
     text-decoration: none;
+    background-color: #2b81f1;
+    padding: 5px;
   }
 
   .adress {
     font-family: italic; 
     font-style: oblique;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #000000;
     text-decoration: none;
   }
 
   .online:hover {
-    color: #ce0505;
+    color: #000000;
   }
 
   .number {
     font-family: italic; 
     font-style: oblique;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin-left: 12px;
+    margin-right: 12px;
   }
 
   a.btn-tg {
@@ -610,6 +642,8 @@ html {
     background-image: url("https://sun9-59.userapi.com/s/v1/ig2/aZh3gJcj9NItilrs1_bz7nxtYNwRE2vrHWu4CiQXx3UaLM_y2RWcO30r12rlxShevEw6MIp_VebktgGHCOdtEYFL.jpg?quality=95&as=32x32,40x40&from=bu&u=3cQyFhP0XNU4UgAdfYft142jKE0CWL7E9HKaEeSz-Cg&cs=40x0");
     width: 40px;
     height: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
   }
 
   a.btn-vk:hover {
@@ -650,18 +684,18 @@ html {
   }
 
   .logo {
-    max-width: 55%;
+    max-width: 50%;
     height: auto;
   }
 
   .first {
     color: #000000;
-    font-size: 15px;
-    line-height: 1.3;
+    font-size: 16px;
+    line-height: 1.1;
     display: flex;
     float: right;
     font-weight: normal;
-    width: 70%;
+    width: 75%;
   }
 
   .mid_image_first {
@@ -683,7 +717,7 @@ html {
 
   .first_img {
     color: #000000;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.2;
     font-weight: normal;
     display: flex;
@@ -802,8 +836,10 @@ html {
     font-family: italic; 
     font-style: oblique;
     font-size: 1rem;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
+    background-color: #2b81f1;
+    padding: 7px;
   }
 
   .adress {
@@ -815,7 +851,7 @@ html {
   }
 
   .online:hover {
-    color: #ce0505;
+    color: #000000;
   }
 
   .number {
@@ -823,6 +859,8 @@ html {
     font-style: oblique;
     font-size: 1rem;
     margin-left: 4%;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   a.btn-tg {
