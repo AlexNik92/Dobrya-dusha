@@ -271,11 +271,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1%;
+    margin-top: 10%;
     margin-right: 2%;
     gap: 0.8%;
     width: 90%;
-    height: 6.5rem;
+    height: 8rem;
     border: 1.5px solid #2b81f1;
   } 
 
@@ -358,10 +358,14 @@
     height: 40rem;
   }
 
+  .words {
+    margin-top: 1%;
+  }
+
   .online {
     font-family: italic; 
     font-style: oblique;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #ffffff;
     text-decoration: none;
     background-color: #2b81f1;
@@ -371,7 +375,7 @@
   .adress {
     font-family: italic; 
     font-style: oblique;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #000000;
     text-decoration: none;
   }
@@ -383,7 +387,7 @@
   .number {
     font-family: italic; 
     font-style: oblique;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-left: 15px;
     margin-right: 15px;
   }
