@@ -185,7 +185,7 @@
   }
 
   a.btn-tg {
-    display: flex;
+    display: inline-block;
     background-image: url(../images/tg_black.jpg);
     width: 40px;
     height: 40px;
