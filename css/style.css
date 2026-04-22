@@ -16,17 +16,6 @@
 }
 
 @media (min-width: 1920px) {
-  html {
-    background-image: url(../images/white_copy.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
   .header-container {
     display: flex;
     float: right;
@@ -233,17 +222,6 @@
 
 @media (min-width: 1200px) and (max-width: 1919px) {
 
-  html {
-    background-image: url(../images/white_copy.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
   .header-container {
     display: flex;
     float: right;
@@ -448,17 +426,6 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
-html {
-    background-image: url(../images/white_copy.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
 
   .header-container {
     display: flex;
@@ -665,17 +632,6 @@ html {
 
 @media (max-width: 480px) {
 
-  html {
-    background-image: url(../images/white_copy.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
   .header-container {
     display: flex;
     float: right;
@@ -707,7 +663,6 @@ html {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    /* flex-direction: column; */
   }
   .text{
     display: flex;
@@ -898,38 +853,4 @@ html {
   .btn-ut:hover {
     background-image: url("https://sun9-15.userapi.com/s/v1/ig2/-lGrgAnJ2rL4fH2qjZ0Hf8gYhRb_SNVqb2YJFAYpquk8Z7KItv96Q5IejoZBc8eaI1temK0aZEMy0I0ntH0eaFYH.jpg?quality=95&as=32x32,40x40&from=bu&cs=40x0");
   }
-
-  /* a.btn-tg {
-    display: inline-block;
-    background-image: url("https://sun9-45.userapi.com/s/v1/ig2/4dmKQ4uCMITAC7VYhPR22qsD3_XOpunF2CLrgPpqaR9OjxMGOyQCXATcbs4UZ0z4k015C8XOc5zaXTesOdJT0ra3.jpg?quality=95&as=20x20&from=bu&u=rOagNld4EkYbPkFF84Y9kxZFWSKiwr8G3F24i2wX2iE&cs=20x0");
-    width: 20px;
-    height: 20px;
-  }
-
-  a.btn-tg:hover {
-    background-image: url("https://sun9-37.userapi.com/s/v1/ig2/EmgS5vdeUBBWvjzuJR65zeRlztIIS0nVUfzaRI66Xi7nrt8IHX7_M9eVs8bIJiL4zr0h-oKaAilIBzSy4PKmcPmR.jpg?quality=95&as=20x20&from=bu&cs=20x0");
-  }
-
-  a.btn-vk {
-    display: inline-block;
-    background-image: url("https://sun9-80.userapi.com/s/v1/ig2/HpPB2E0bF7gQCYXQrL7UgRyRAIVAyFHEtBSuaiUFNC7IgwnNxqBlzfYWs2oEEnWse-7Gz89b6viKWCuV9mrAq9JA.jpg?quality=95&as=20x20&from=bu&cs=20x0");
-    width: 20px;
-    height: 20px;
-  }
-
-  a.btn-vk:hover {
-    background-image: url("https://sun9-40.userapi.com/s/v1/ig2/8uD2uVszVNE5QD41_4SzERz8dgLZiMD5pr_nIG-nTBOmiYGgd0afh29afzSDgvK7L9soNpOGktqIQ414moQUYD-_.jpg?quality=95&as=20x20&from=bu&cs=20x0");
-  }
-
-  a.btn-ut {
-    display: inline-block;
-    background-image: url("https://sun9-27.userapi.com/s/v1/ig2/w9YeU5Ad-5FrAj7x8_y2PHwy_KEZdazYUXME8oXOLkXDzqRwcTWxXeKiQmA3hiqr2bzItXAAq1CpiT3GUfl3gmMS.jpg?quality=95&as=20x20&from=bu&cs=20x0");
-    width: 20px;
-    height: 20px;
-    }
-
-  .btn-ut:hover {
-    background-image: url("https://sun9-85.userapi.com/s/v1/ig2/u2lZWfWdKkLPNkeHXzh-kV-bcjaF3adBZSA2YJbhXOBB7gdxK8-jpDqkVbaUOts40Rm73aZZXPw80qdAWEUQDMo2.jpg?quality=95&as=20x20&from=bu&cs=20x0");
-  } */
-
 }
